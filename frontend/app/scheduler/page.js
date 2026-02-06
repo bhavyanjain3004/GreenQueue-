@@ -111,7 +111,7 @@ const FileUploader = ({ file, setFile, disabled }) => {
       ) : (
         <div className="flex items-center justify-between p-4 border border-green-200 rounded-xl bg-green-50">
           <div className="flex items-center space-x-3 overflow-hidden">
-            <ICONS.File className="h-6 w-6 text-green-700 flex-shrink-0" />
+            <ICONS.File className="h-6 w-6 text-green-700 shrink-0" />
             <div className="flex flex-col">
               <span className="text-sm font-medium text-green-800 truncate">{file.name}</span>
               <span className="text-xs text-green-600">{formatBytes(file.size)} • {file.type || 'unknown'}</span>
