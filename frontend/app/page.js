@@ -252,7 +252,7 @@ export default function LandingPage() {
             <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-white text-green-600">
+                  <div className="shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-white text-green-600">
                     <IconLeaf className="h-6 w-6" />
                   </div>
                   <div>
@@ -261,7 +261,7 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-white text-green-600">
+                  <div className="shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-white text-green-600">
                     <IconDollarSign className="h-6 w-6" />
                   </div>
                   <div>
@@ -270,7 +270,7 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                   <div className="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-white text-green-600">
+                   <div className="shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-white text-green-600">
                     <IconZap className="h-6 w-6" />
                   </div>
                   <div>
